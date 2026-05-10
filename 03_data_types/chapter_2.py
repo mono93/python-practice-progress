@@ -1,0 +1,7 @@
+value = set()
+print(f"Initial value id: {id(value)}")
+print(f"Initial value: {value}")
+value.add(1)
+value.add(2)
+print(f"Updated value id: {id(value)}")
+print(f"Updated value: {value}")
