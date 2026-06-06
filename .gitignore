@@ -1,1 +1,11 @@
 .venv
+
+# Step 1: Ignore everything recursively
+*
+!*/
+
+# Step 2: Allow all directories so Git can scan them
+!**/
+
+# Step 3: Explicitly un-ignore Python files
+!*.py
