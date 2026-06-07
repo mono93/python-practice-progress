@@ -1,4 +1,5 @@
 .venv
+venv
 
 # Step 1: Ignore everything recursively
 *
@@ -9,3 +10,6 @@
 
 # Step 3: Explicitly un-ignore Python files
 !*.py
+
+images
+quotes
