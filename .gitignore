@@ -11,6 +11,7 @@ venv
 # Step 3: Explicitly un-ignore Python files
 !*.py
 !*.ipynb
+!*.png
 
 images
 quotes
